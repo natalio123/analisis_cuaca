@@ -66,7 +66,7 @@
 
 <h2>🛠️ Cara Menjalankan</h2>
 <pre><code># Clone repositori
-git clone https://github.com/username/analisis_cuaca.git
+git clone https://github.com/natalio123/analisis_cuaca.git
 cd analisis_cuaca </code></pre>
 
 <pre><code># Aktifkan virtual environment
@@ -99,22 +99,21 @@ analisis_cuaca/
 ├── plots/
 ├── tests/
 │   ├── test_main.py
-│   └── ...
+│   └── test_akuisisiData.py
+│   └── test_preprocessing.py
+│   └── test_visualisasi.py
+│   └── test_dashboard.py
 ├── utils/
 │   ├── akuisisi_data.py
 │   ├── preprocessing.py
 │   ├── visualisasi.py
 │   ├── dashboard.py
 │   └── main.py
-├── main.py
 ├── requirements.txt
-└── README.html
+└── README.md
 </code></pre>
 
 <hr>
-
-<h2>📄 Lisensi</h2>
-<p>Proyek ini menggunakan lisensi MIT. Bebas digunakan dan dimodifikasi untuk keperluan edukasi maupun produksi.</p>
 
 </body>
 </html>
