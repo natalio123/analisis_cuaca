@@ -80,6 +80,11 @@ pip install -r requirements.txt</code></pre>
 python main.py
 </code></pre>
 
+<pre><code># Jalankan dashboard
+streamlit run app.py
+</code></pre>
+
+
 <hr>
 
 <h2>🧪 Pengujian dan Coverage</h2>
