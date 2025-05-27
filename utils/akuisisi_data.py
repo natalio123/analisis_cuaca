@@ -39,9 +39,9 @@ def simulate_weather_data():
     
     data = []
     
-    # Membuat data cuaca simulasi untuk 30 hari terakhir
+    # Membuat data cuaca simulasi untuk 90 hari terakhir
     for city in cities:
-        for i in range(21):
+        for i in range(90):
             date = (datetime.now() - timedelta(days=i)).strftime('%Y-%m-%d')
             
             # Simulasi nilai parameter cuaca dengan sedikit random variation
